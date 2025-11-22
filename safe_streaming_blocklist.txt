@@ -1,0 +1,63 @@
+# Safe Streaming Service Blocklist (Ads + Tracking Only)
+
+# Netflix
+ichnaea.netflix.com
+secure.netflix.com
+assets.nflxext.com
+api-global.netflix.com
+logging.netflix.com
+metrics.netflix.com
+
+# Hulu
+ads-e-darwin.hulustream.com
+track.hulu.com
+ads-api.hulu.com
+logs.hulu.com
+collector.hulu.com
+
+# Disney+ / ESPN+ / Hotstar
+bam.nr-data.net
+bamgrid.com
+disney-analytics.com
+dssott.com
+prod.bamgrid.com
+
+# HBO Max / Max
+hbomax-analytics.com
+analytics.hbo.com
+data.hbomax.com
+
+# Amazon Prime Video
+amazon-adsystem.com
+aax.amazon-adsystem.com
+fls-na.amazon.com
+device-metrics-us.amazon.com
+
+# YouTube / Google TV
+googleads.g.doubleclick.net
+pagead2.googlesyndication.com
+s.youtube.com
+tracking.youtube.com
+
+# Roku (Ads & Sponsored Content)
+ads-api.roku.com
+ads.roku.com
+track.sr.roku.com
+pings.roku.com
+
+# Paramount+ / CBS
+cbsi.com
+cbsinteractive.com
+om.cbsi.com
+cbs-analytics.com
+
+# Peacock
+tvsanalytics.peacocktv.com
+collector.nbcuni.com
+analytics.nbc.com
+
+# Apple TV+
+metrics.apple.com
+metrics.icloud.com
+metrics.mzstatic.com
+xp.apple.com
