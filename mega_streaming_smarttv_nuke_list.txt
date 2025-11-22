@@ -1,0 +1,215 @@
+# ============================================
+# MEGA STREAMING + SMART TV NUKE LIST
+# By d2007jr
+# - Blocks streaming ads & tracking
+# - Nukes Smart TV telemetry & ACR
+# - Keeps streaming apps working
+# ============================================
+
+##############################################
+# STREAMING SERVICES - ADS & TRACKING (SAFE)
+##############################################
+
+# Netflix
+ichnaea.netflix.com
+secure.netflix.com
+assets.nflxext.com
+api-global.netflix.com
+logging.netflix.com
+metrics.netflix.com
+
+# Hulu
+ads-e-darwin.hulustream.com
+track.hulu.com
+ads-api.hulu.com
+logs.hulu.com
+collector.hulu.com
+
+# Disney+ / ESPN+ / Hotstar
+bam.nr-data.net
+bamgrid.com
+disney-analytics.com
+dssott.com
+prod.bamgrid.com
+
+# HBO Max / Max
+hbomax-analytics.com
+analytics.hbo.com
+data.hbomax.com
+
+# Amazon Prime Video
+amazon-adsystem.com
+aax.amazon-adsystem.com
+fls-na.amazon.com
+device-metrics-us.amazon.com
+
+# YouTube / Google TV (ads & tracking only)
+googleads.g.doubleclick.net
+pagead2.googlesyndication.com
+s.youtube.com
+tracking.youtube.com
+
+# Roku (ads & sponsored content - base)
+ads-api.roku.com
+ads.roku.com
+track.sr.roku.com
+pings.roku.com
+
+# Paramount+ / CBS
+cbsi.com
+cbsinteractive.com
+om.cbsi.com
+cbs-analytics.com
+
+# Peacock
+tvsanalytics.peacocktv.com
+collector.nbcuni.com
+analytics.nbc.com
+
+# Apple TV+
+metrics.apple.com
+metrics.icloud.com
+metrics.mzstatic.com
+xp.apple.com
+
+
+##############################################
+# SMART TV TELEMETRY (SAFE CORE LIST)
+##############################################
+
+# Samsung Smart TV (Tizen) telemetry / ads
+samsungacr.com
+log-config.samsungacr.com
+log-ingestion.samsungacr.com
+samsungads.com
+ads.samsung.com
+config.samsungads.com
+samsungtvads.com
+samsungrl.com
+vd-event.samsungcloud.tv
+gld.push.samsungosp.com
+samsungcloud.tv
+osb-apps.samsungcloudsolution.com
+
+# Samsung ACR / analytics
+acr.samsung.com
+acr.samsungtv.com
+bpu.samsungcloud.tv
+metrics.samsung.com
+analytics-api.samsung.com
+horizon.samsungcloud.tv
+ott.samsungcloud.tv
+tv2.samsungcloud.tv
+log.samsungcloudsolution.com
+
+# LG webOS Smart TV
+lgsmartad.com
+lgad.cjpowercast.com
+ngfts.lge.com
+us.ad.lgsmartad.com
+us.info.lgsmartad.com
+bcn.lge.com
+lgtvcommon.lge.com
+lgtvsdp.cjpowercast.com
+lgtv.pavv.co.kr
+lgmetrics.lge.com
+lgreports.lge.com
+snupgrade.lge.com
+
+# Vizio SmartCast
+sc.vizio.com
+assets-cast.avsops.com
+smartcasttv.azureedge.net
+vizioads.com
+signals.vizio.com
+config.vizio.com
+analytics.vizio.com
+vizio-config.vizio.com
+telemetry.vizio.com
+dsp.vizio.com
+vizio-ads.amazonaws.com
+
+# Roku TV base telemetry (TCL, Hisense, Sharp)
+cloudservices.roku.com
+turner.roku.com
+cooper.roku.com
+logs.roku.com
+tracking.sr.roku.com
+logservice.roku.com
+logactivation.sr.roku.com
+analytics.sdk.roku.com
+trc-events.sr.roku.com
+clouddiagnostics.roku.com
+clouddiagnostics2.roku.com
+metrics.roku.com
+insights-analytics.roku.com
+cws.roku.com
+
+# Sony / Google TV / Android TV telemetry-focused
+clientservices.androidtv.com
+acra.telemetry.tv
+androidtvwatsonfe-pa.googleapis.com
+
+# Hisense / TCL Android TV
+hismarttv.com
+hismartai.com
+globalapi.hismarttv.com
+cloudservice.hismarttv.com
+api.prod.ott.hismarttv.com
+tclclouds.com
+tclservices.com
+video-api.tcl.com
+tcl-api.tcl.com
+
+# Philips / Panasonic Android TV
+api.tpvision.com
+prod.tpvision.com
+philipscloudservices.com
+panasonic-cloud.com
+
+# Amazon Fire TV telemetry
+device-metrics-us.amazon.com
+device-metrics-us-2.amazon.com
+ate.amazon.com
+fireos-us.amazon.com
+
+# Universal ACR (Automatic Content Recognition)
+gracenote.com
+acrcloud.com
+samba.tv
+sync.samba.tv
+tvs.samba.tv
+acr.samsungtv.com
+
+
+##############################################
+# ROKU NUKE SECTION (ULTRA AGGRESSIVE)
+##############################################
+
+# Roku core ads (already partly above)
+ads.roku.com
+ads-api.roku.com
+advertising.roku.com
+
+# Extra home screen & config services
+configsvc.roku.com
+config.roku.com
+rokuconfig.sr.roku.com
+channels.sr.roku.com
+api.sr.roku.com
+
+# Time / NTP (optional)
+time.sr.roku.com
+ntp.roku.com
+
+# Voice / assistant tracking (optional)
+voice.google.roku.com
+speech.googleapis.com
+
+# Mobile app telemetry
+mobileconfig.sr.roku.com
+app-analytics.sr.roku.com
+
+# Partner telemetry frequently used by Roku
+sentry.io
+rollbar.com
