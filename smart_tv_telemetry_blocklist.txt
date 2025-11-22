@@ -1,0 +1,75 @@
+# ===============================
+# Smart TV Telemetry Blocklist
+# SAFE (Does not break streaming apps)
+# Created for d2007jr
+# ===============================
+
+# SAMSUNG SMART TV (Tizen OS)
+samsungacr.com
+log-config.samsungacr.com
+log-ingestion.samsungacr.com
+samsungads.com
+ads.samsung.com
+config.samsungads.com
+gld.push.samsungosp.com
+samsungtvads.com
+vd-event.samsungcloud.tv
+samsungrl.com
+
+# LG SMART TV (webOS)
+lgsmartad.com
+lgad.cjpowercast.com
+ngfts.lge.com
+us.ad.lgsmartad.com
+us.info.lgsmartad.com
+bcn.lge.com
+lgtvcommon.lge.com
+lgtvsdp.cjpowercast.com
+
+# VIZIO SMART TV
+sc.vizio.com
+assets-cast.avsops.com
+smartcasttv.azureedge.net
+vizioads.com
+signals.vizio.com
+config.vizio.com
+analytics.vizio.com
+
+# ROKU TV (TCL, Hisense, Sharp)
+ads-api.roku.com
+cloudservices.roku.com
+turner.roku.com
+tracking.sr.roku.com
+pings.roku.com
+cooper.roku.com
+logs.roku.com
+
+# SONY / GOOGLE TV / ANDROID TV (telemetry-focused)
+clientservices.androidtv.com
+acra.telemetry.tv
+
+# HISENSE / TCL ANDROID TV
+hismarttv.com
+hismartai.com
+globalapi.hismarttv.com
+cloudservice.hismarttv.com
+api.prod.ott.hismarttv.com
+
+# PHILIPS / PANASONIC ANDROID TV
+api.tpvision.com
+prod.tpvision.com
+philipscloudservices.com
+panasonic-cloud.com
+
+# AMAZON FIRE TV (telemetry/metrics)
+device-metrics-us.amazon.com
+ate.amazon.com
+fls-na.amazon.com
+
+# UNIVERSAL ACR (Automatic Content Recognition)
+gracenote.com
+acrcloud.com
+samba.tv
+sync.samba.tv
+tvs.samba.tv
+acr.samsungtv.com
