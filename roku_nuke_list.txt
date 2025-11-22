@@ -1,0 +1,69 @@
+# ============================================
+# ROKU NUKE LIST (Ultra Aggressive)
+# Removes ALL Roku ads & telemetry
+# Safe for streaming apps
+# Created for d2007jr
+# ============================================
+
+# Roku Ads Core
+ads.roku.com
+ads-api.roku.com
+advertising.roku.com
+partnerad.lgtvcommon.com
+
+# Roku Home Screen Sponsored Tiles
+cloudservices.roku.com
+pings.roku.com
+turner.roku.com
+cooper.roku.com
+configsvc.roku.com
+
+# Roku Telemetry / Analytics
+track.sr.roku.com
+tracking.sr.roku.com
+logs.roku.com
+logservice.roku.com
+logactivation.sr.roku.com
+analytics.sdk.roku.com
+trc-events.sr.roku.com
+
+# Roku Device Fingerprinting
+clouddiagnostics.roku.com
+clouddiagnostics2.roku.com
+metrics.roku.com
+insights-analytics.roku.com
+
+# Roku ACR (Automatic Content Recognition)
+samba.tv
+sync.samba.tv
+tvs.samba.tv
+
+# Roku Channel Store Tracking
+api.sr.roku.com
+channels.sr.roku.com
+config.roku.com
+rokuconfig.sr.roku.com
+
+# Roku Device Behavior Tracking
+software-updates.roku.com
+swdownload.roku.com
+device-api.roku.com
+api-device.sr.roku.com
+api-user.sr.roku.com
+
+# Roku Time Sync (Not needed)
+time.sr.roku.com
+ntp.roku.com
+
+# Roku Voice Tracking
+voice.google.roku.com
+speech.googleapis.com
+
+# Roku Mobile App Telemetry
+mobileconfig.sr.roku.com
+app-analytics.sr.roku.com
+
+# Partner Telemetry Sometimes Triggered by Roku OS
+cws.roku.com
+sentry.io
+rollbar.com
